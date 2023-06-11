@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.batuhanb.sayitahmin.OyunEkranActivity">
+
+    <ImageView
+        android:id="@+id/imageDurum"
+        android:layout_width="170dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewDurum"
+        android:layout_width="188dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="55dp"
+        android:fontFamily="@font/almendra"
+        android:gravity="center"
+        android:text="@string/hosGeldiniz"
+        android:textColor="#4CAF50"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageDurum" />
+
+    <EditText
+        android:id="@+id/editTextTahmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:fontFamily="@font/almendra"
+        android:hint="@string/tahminHint"
+        android:inputType="number"
+        android:textColor="#070707"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDurum" />
+
+    <Button
+        android:id="@+id/tahminButton"
+        android:layout_width="218dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="88dp"
+        android:background="@drawable/basla_button_gradient"
+        android:text="Tahmin Et"
+        android:textColor="#964b00"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTahmin" />
+</androidx.constraintlayout.widget.ConstraintLayout>

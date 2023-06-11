@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Sayı Tahmin</string>
+    <string name="splash_text">Sayı Tahmin Etme Oyunuma Hoşgeldiniz</string>
+    <string name="devNote">© Batuhan Bolat - 2023 </string>
+    <string name="oyunBasltaButton">Oyuna Başla</string>
+    <string name="hosGeldiniz">Tekrar Hoş Geldiniz</string>
+    <string name="tahminHint">Tahmininiz ?</string>
+
+</resources>
